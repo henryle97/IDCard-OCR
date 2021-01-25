@@ -1,0 +1,8 @@
+/weights/*
+!/weights/__init__.py
+/center/weights/*.pth
+/center/models/DCNv2/_ext
+/center/models/DCNv2/build
+/center/models/DCNv2/DCNv2.egg-info
+/center/models/DCNv2/dist
+/data/*
