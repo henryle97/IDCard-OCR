@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac04bb18-6de7-4029-bee1-5d820c705665" name="Default Changelist" comment="done">
+    <list default="true" id="ac04bb18-6de7-4029-bee1-5d820c705665" name="Default Changelist" comment="90%">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -130,26 +130,28 @@
   <component name="LineStatusTrackerManager">
     <file path="$PROJECT_DIR$/.idea/workspace.xml">
       <ranges>
-        <range start1="3" end1="4" start2="3" end2="106" changelist="ac04bb18-6de7-4029-bee1-5d820c705665" />
-        <range start1="26" end1="26" start2="128" end2="154" changelist="ac04bb18-6de7-4029-bee1-5d820c705665" />
-        <range start1="37" end1="38" start2="165" end2="166" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="42" end1="42" start2="170" end2="172" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="43" end1="43" start2="173" end2="174" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="44" end1="47" start2="175" end2="175" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="49" end1="49" start2="177" end2="179" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="53" end1="54" start2="183" end2="184" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="75" end1="76" start2="205" end2="227" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="83" end1="84" start2="234" end2="235" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="87" end1="88" start2="238" end2="239" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="96" end1="98" start2="247" end2="249" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="104" end1="105" start2="255" end2="256" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="108" end1="109" start2="259" end2="260" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="117" end1="119" start2="268" end2="270" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="129" end1="130" start2="280" end2="281" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="138" end1="139" start2="289" end2="290" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="150" end1="151" start2="301" end2="302" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="161" end1="161" start2="312" end2="315" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="163" end1="165" start2="317" end2="317" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="3" end1="4" start2="3" end2="4" changelist="ac04bb18-6de7-4029-bee1-5d820c705665" />
+        <range start1="132" end1="152" start2="132" end2="137" changelist="ac04bb18-6de7-4029-bee1-5d820c705665" />
+        <range start1="166" end1="167" start2="151" end2="152" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="171" end1="171" start2="156" end2="158" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="172" end1="172" start2="159" end2="160" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="173" end1="176" start2="161" end2="161" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="178" end1="178" start2="163" end2="165" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="182" end1="183" start2="169" end2="170" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="204" end1="205" start2="191" end2="192" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="212" end1="213" start2="199" end2="200" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="216" end1="217" start2="203" end2="204" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="225" end1="227" start2="212" end2="214" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="233" end1="234" start2="220" end2="221" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="237" end1="238" start2="224" end2="225" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="246" end1="248" start2="233" end2="256" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="258" end1="259" start2="266" end2="267" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="267" end1="268" start2="275" end2="276" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="279" end1="280" start2="287" end2="288" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="290" end1="290" start2="298" end2="301" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="292" end1="294" start2="303" end2="303" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
+        <range start1="425" end1="426" start2="434" end2="442" changelist="ac04bb18-6de7-4029-bee1-5d820c705665" />
+        <range start1="454" end1="455" start2="470" end2="472" changelist="ac04bb18-6de7-4029-bee1-5d820c705665" />
       </ranges>
     </file>
   </component>
@@ -423,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610890321139</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="90%">
+      <created>1614152738400</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1614152738400</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -452,6 +461,7 @@
     <MESSAGE value="find largest face" />
     <MESSAGE value="yes" />
     <MESSAGE value="threshold" />
-    <option name="LAST_COMMIT_MESSAGE" value="threshold" />
+    <MESSAGE value="90%" />
+    <option name="LAST_COMMIT_MESSAGE" value="90%" />
   </component>
 </project>
