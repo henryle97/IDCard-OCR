@@ -5,4 +5,4 @@ sh setup.sh
 
 
 2. Demo
-![](./overview.png)
+![](./overview.PNG)
