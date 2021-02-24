@@ -65,8 +65,8 @@ class LineDetection(object):
         detections = [dets]
         results = merge_outputs(detections, self.num_classes, self.max_obj_per_img)
         # Get boxes with score larger threshold
-        h_extend_size = 0.01
-        w_extend_size = 0.01
+        h_extend_size = 0.03
+        w_extend_size = 0.02
         list_box = {}
         for j in range(1, self.num_classes + 1):
             if self.list_label[j - 1] not in list_box.keys():
