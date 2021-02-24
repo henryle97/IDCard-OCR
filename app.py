@@ -1,103 +1,76 @@
 import time
-from random import randint
-import streamlit as st
-from PIL import Image
-import SessionState
-from matching_face_model import MatchingFaceModel
 import cv2
+import streamlit as st
+import SessionState
 import numpy as np
-from center.utils.config import Cfg
-# import sys
-# import os
-# sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)) + "/center")
-# print(os.path.dirname(os.path.abspath(__file__)) + "/center")
+from PIL import Image
+from cmnd_ocr import TEXT_IMAGES
+state = SessionState.get(result_text="", res="", prob_positive=0.0, prob_negative= 0.0, initial=True, img_drawed=None, img_cropped=None, reg_text_time=None)
 
-from detect import CENTER_MODEL
-
-state = SessionState.get(img1_cv = None, img2_cv=None, cmnd_detected=None, init=True, widget_key_1=str(randint(1000, 100000000)), widget_key_2=str(randint(1000, 100000000)),
-                         status_cmnd = False)
-COSINE_THRESHOLD = 0.7323
 
 def main():
-    model_face, model_cmnd = load_model()
-    have_cmnd = None
-    st.title("ID-Selfie Matching")
+    model = load_model()
+    st.title("Demo nhận dạng văn bản tiếng Việt")
     # Load model
 
-    st.sidebar.title("Up ảnh")
-    # # img1 = st.sidebar.file_uploader("Img1")
-    uploaded_file_1 = st.sidebar.file_uploader("Upload CMND", key=state.widget_key_1)
-    uploaded_file_2 = st.sidebar.file_uploader("Upload Selfie ", key=state.widget_key_2)
-    if st.sidebar.button("Reset"):
-        # state.widget_key_1 = str(randint(1000, 100000000))
-        # state.widget_key_2 = str(randint(1000, 100000000))
-        uploaded_file_1  = None
-        uploaded_file_2 = None
-    if uploaded_file_1 is not None:
-        print(uploaded_file_1)
-        image1 = Image.open(uploaded_file_1)
-        st.sidebar.image(image1, use_column_width=True)
-        img1_cv = cv2.cvtColor(np.array(image1), cv2.COLOR_RGB2BGR)
-        state.img1_cv = img1_cv
-    if uploaded_file_2 is not None and state.img1_cv is not None:
-        image2 = Image.open(uploaded_file_2)
-        st.sidebar.image(image2, use_column_width=True)
-        img2_cv = cv2.cvtColor(np.array(image2), cv2.COLOR_RGB2BGR)
-        state.img2_cv = img2_cv
+    pages = {
+        'CMND': page_cmnd
 
-    # if st.button("Check"):
+    }
 
-    if state.img1_cv is not None and state.img2_cv is not None:
-        t1 = time.time()
-        state.cmnd_detected = None
-        state.cmnd_detected, have_cmnd = model_cmnd.detect_obj(state.img1_cv)
+    st.sidebar.title("Application")
+    page = st.sidebar.radio("Chọn ứng dụng demo:", tuple(pages.keys()))
 
-
-        st.title("Kết quả phát hiện CMND")
-        if not have_cmnd:
-            st.error("Không phát hiện CMND")
-            st.image(state.cmnd_detected,  width=312, channels='BGR')
-        else:
-            st.image(state.cmnd_detected,  width=312, channels='BGR')
-        similar_score, img1_aligned, img2_aligned = model_face.matching(state.cmnd_detected, state.img2_cv)
-        end_time = round(time.time() - t1, 2)
-        if similar_score is not None:
-            st.title("Kết quả")
-            col1, col2 = st.beta_columns(2)
-            with col1:
-                st.image(img1_aligned, channels='BGR', width=224)
-                st.image(img2_aligned, channels='BGR', width=224)
-
-            with col2:
-
-
-                percentage, percentage_threshold  = model_face.convert_to_percentage(cosine_score=similar_score, min_val=0.12, max_val=1.65,
-                                                                                     cosine_threshold=COSINE_THRESHOLD)
-
-                if percentage >= percentage_threshold:
-                    st.success("MATCH")
-                else:
-                    st.error("NOT MATCH")
-                st.success("Độ tương đồng {:.2f}% (threshold={:.2f})".format(percentage, percentage_threshold))
-                st.info("Time: {:.2f}s".format(end_time))
-                state.img1_cv, state.img2_cv = None, None
-                # state.cmnd_detected = None
-        else:
-            st.error("Không phát hiện khuôn mặt trong ảnh")
-
+    pages[page](state, model)
 
     # state.sync()
 
 
-
 @st.cache(allow_output_mutation=True)  # hash_func
-def load_model(config_path="./center/config/cmnd.yml"):
+def load_model():
     print("Loading model ...")
-    model_face = MatchingFaceModel(model_path='weights/model-r100-ii/model,0', gpu=0, use_large_detector=True)
-    config = Cfg.load_config_from_file(config_path)
-    model_cmnd = CENTER_MODEL(config)
-    return model_face, model_cmnd
+    model = TEXT_IMAGES(reg_model='vgg_seq2seq', ocr_weight_path='weights/seq2seqocr_0.45.pth')
+    return model
 
+
+def page_cmnd(state, model):
+    st.header("Nhận dạng văn bản từ CMND")
+
+    img_file_buffer = st.file_uploader("Upload an image", type=["png", "jpg", "jpeg"])
+    if img_file_buffer is not None:
+        pil_image = Image.open(img_file_buffer)
+        cv_image = cv2.cvtColor(np.array(pil_image), cv2.COLOR_RGB2BGR)
+        # print(cv_image.shape)
+
+        # CMND detection
+        t1 = time.time()
+
+        result_text, img_drawed_box= model.get_content_image(cv_image)
+
+        state.result_text = result_text
+        state.img_drawed = img_drawed_box
+        state.reg_text_time = time.time() - t1
+
+        col1, col2 = st.beta_columns(2)
+        with col2:
+
+            if state.result_text is not None:
+                # result_text_format = []
+                # for texts in state.result_text:
+                #     result_text_format.append(" ".join(texts))
+                st.json(state.result_text)
+                st.success("Time: %.2f"%(state.reg_text_time))
+            else:
+                st.error("Not detected CMND")
+        with col1:
+            if state.img_drawed is not None:
+                st.image(state.img_drawed, use_column_width=True)
+
+        # if state.img_cropped is not None:
+        #     st.title("Chi tiết:")
+        #     for idx, img in enumerate(state.img_cropped):
+        #         st.image(img, caption=state.result_text[idx])
+        #         st.empty()
 
 if __name__ == "__main__":
     main()
