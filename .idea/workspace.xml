@@ -1,108 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ac04bb18-6de7-4029-bee1-5d820c705665" name="Default Changelist" comment="90%">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="ac04bb18-6de7-4029-bee1-5d820c705665" name="Default Changelist" comment="100%">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-    <list id="c742793a-9336-4d06-9cb5-5d2a8c8091ce" name="done" comment="done">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmnd_ocr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data_utils/convert_weight.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/external/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/external/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/external/_gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/external/build/temp.linux-x86_64-3.6/nms.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/external/nms.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/external/nms.cpython-36m-x86_64-linux-gnu.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/external/nms.pyx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/external/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/model_box.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/DCNv2.egg-info/PKG-INFO" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/DCNv2.egg-info/SOURCES.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/DCNv2.egg-info/dependency_links.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/DCNv2.egg-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/_ext.cp37-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/build/lib.win-amd64-3.7/_ext.cp37-win_amd64.pyd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/build/temp.win-amd64-3.7/Release/Users/hoanglv10/PycharmProjects/OCR_CMND/center/models/DCNv2/src/_ext.cp37-win_amd64.exp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/build/temp.win-amd64-3.7/Release/Users/hoanglv10/PycharmProjects/OCR_CMND/center/models/DCNv2/src/_ext.cp37-win_amd64.lib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/build/temp.win-amd64-3.7/Release/Users/hoanglv10/PycharmProjects/OCR_CMND/center/models/DCNv2/src/cpu/dcn_v2_cpu.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/build/temp.win-amd64-3.7/Release/Users/hoanglv10/PycharmProjects/OCR_CMND/center/models/DCNv2/src/cpu/dcn_v2_im2col_cpu.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/build/temp.win-amd64-3.7/Release/Users/hoanglv10/PycharmProjects/OCR_CMND/center/models/DCNv2/src/cpu/dcn_v2_psroi_pooling_cpu.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/build/temp.win-amd64-3.7/Release/Users/hoanglv10/PycharmProjects/OCR_CMND/center/models/DCNv2/src/vision.obj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/dcn_v2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/make.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/src/cpu/dcn_v2_cpu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/src/cpu/dcn_v2_im2col_cpu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/src/cpu/dcn_v2_im2col_cpu.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/src/cpu/dcn_v2_psroi_pooling_cpu.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/src/cpu/vision.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/src/cuda/dcn_v2_cuda.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/src/cuda/dcn_v2_im2col_cuda.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/src/cuda/dcn_v2_im2col_cuda.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/src/cuda/dcn_v2_psroi_pooling_cuda.cu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/src/cuda/vision.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/src/dcn_v2.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/src/vision.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/testcpu.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/DCNv2/testcuda.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/line_detection_module/models/networks/pose_dla_dcn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/loader/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/loader/aug.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/loader/dataloader.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/backbone/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/backbone/cnn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/backbone/resnet.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/backbone/vgg.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/beam.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/seqmodel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/seqmodel/convseq2seq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/seqmodel/seq2seq.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/seqmodel/transformer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/trainer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/transformerocr.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/model/vocab.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/optim/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/optim/labelsmoothingloss.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/optim/optim.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/predict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/requirement.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tests/image/001099025107.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tests/image/026301003919.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tests/image/036170002830.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tests/image/038078002355.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tests/image/038089010274.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tests/image/038144000109.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tests/image/060085000115.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tests/image/072183002222.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tests/image/079084000809.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tests/image/079193002341.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tests/sample.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tests/utest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tool/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tool/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tool/create_dataset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tool/logger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tool/predictor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tool/translate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tool/utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/tool/visualizer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vietocr/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center/config/cmnd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/center/config/cmnd.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_utils/crop_cmnd.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_utils/crop_cmnd.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detect.py" beforeDir="false" afterPath="$PROJECT_DIR$/detect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,34 +29,6 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/.idea/workspace.xml">
-      <ranges>
-        <range start1="3" end1="4" start2="3" end2="4" changelist="ac04bb18-6de7-4029-bee1-5d820c705665" />
-        <range start1="132" end1="152" start2="132" end2="137" changelist="ac04bb18-6de7-4029-bee1-5d820c705665" />
-        <range start1="166" end1="167" start2="151" end2="152" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="171" end1="171" start2="156" end2="158" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="172" end1="172" start2="159" end2="160" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="173" end1="176" start2="161" end2="161" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="178" end1="178" start2="163" end2="165" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="182" end1="183" start2="169" end2="170" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="204" end1="205" start2="191" end2="192" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="212" end1="213" start2="199" end2="200" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="216" end1="217" start2="203" end2="204" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="225" end1="227" start2="212" end2="214" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="233" end1="234" start2="220" end2="221" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="237" end1="238" start2="224" end2="225" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="246" end1="248" start2="233" end2="256" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="258" end1="259" start2="266" end2="267" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="267" end1="268" start2="275" end2="276" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="279" end1="280" start2="287" end2="288" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="290" end1="290" start2="298" end2="301" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="292" end1="294" start2="303" end2="303" changelist="c742793a-9336-4d06-9cb5-5d2a8c8091ce" />
-        <range start1="425" end1="426" start2="434" end2="442" changelist="ac04bb18-6de7-4029-bee1-5d820c705665" />
-        <range start1="454" end1="455" start2="470" end2="472" changelist="ac04bb18-6de7-4029-bee1-5d820c705665" />
-      </ranges>
-    </file>
-  </component>
   <component name="ProjectId" id="1mxrlJTpY4Zon0NVdHs61dVr4sx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -178,6 +52,8 @@
       <recent name="C:\Users\hoanglv10\PycharmProjects\Face_Matching\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hoanglv10\PycharmProjects\OCR_CMND" />
+      <recent name="C:\Users\hoanglv10\PycharmProjects\OCR_CMND\weights" />
       <recent name="C:\Users\hoanglv10\PycharmProjects\Face_Matching\weights" />
       <recent name="C:\Users\hoanglv10\PycharmProjects\Face_Matching" />
     </key>
@@ -432,7 +308,42 @@
       <option name="project" value="LOCAL" />
       <updated>1614152738400</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="90%">
+      <created>1614152921801</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1614152921801</updated>
+    </task>
+    <task id="LOCAL-00020" summary="100%">
+      <created>1614154370481</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1614154370481</updated>
+    </task>
+    <task id="LOCAL-00021" summary="100%">
+      <created>1614160111042</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1614160111042</updated>
+    </task>
+    <task id="LOCAL-00022" summary="100%">
+      <created>1614161691303</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1614161691303</updated>
+    </task>
+    <task id="LOCAL-00023" summary="100%">
+      <created>1614161734868</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1614161734868</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -462,6 +373,7 @@
     <MESSAGE value="yes" />
     <MESSAGE value="threshold" />
     <MESSAGE value="90%" />
-    <option name="LAST_COMMIT_MESSAGE" value="90%" />
+    <MESSAGE value="100%" />
+    <option name="LAST_COMMIT_MESSAGE" value="100%" />
   </component>
 </project>
