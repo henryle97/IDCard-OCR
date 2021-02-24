@@ -48,7 +48,7 @@ train:
 
 
 predictor:
-  weight: "./weights/model_cmnd_best.pth"
+  weight: "./weights/detect_cmnd_weight.pth"
   scale: 1.0
   threshold: 0.25
   fix_res: True

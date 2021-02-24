@@ -9,7 +9,7 @@ from vietocr.tool.predictor import Predictor
 
 class TEXT_IMAGES(object):
 
-    def __init__(self, cmnd_detect_config_path='./center/config/cmnd.yml', line_detect_weight_path='weights/model_line_detect_epoch110.pth', reg_model='vgg_seq2seq', ocr_weight_path='weights/vgg-seq2seq.pth'):
+    def __init__(self, cmnd_detect_config_path='./center/config/cmnd.yml', line_detect_weight_path='weights/line_detect_weight.pth', reg_model='vgg_seq2seq', ocr_weight_path='weights/vgg-seq2seq.pth'):
         print("Loading TEXT_MODEL...")
         cmnd_detect_config = Cfg.load_config_from_file(cmnd_detect_config_path)
         self.cmnd_detect_module = CENTER_MODEL(cmnd_detect_config)

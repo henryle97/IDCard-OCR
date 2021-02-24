@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ac04bb18-6de7-4029-bee1-5d820c705665" name="Default Changelist" comment="100%">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/line_detection_module/model_box.py" beforeDir="false" afterPath="$PROJECT_DIR$/line_detection_module/model_box.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/center/config/cmnd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/center/config/cmnd.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmnd_ocr.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmnd_ocr.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -371,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614162075047</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="100%">
+      <created>1614165520195</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1614165520195</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
