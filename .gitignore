@@ -6,3 +6,8 @@
 /center/models/DCNv2/DCNv2.egg-info
 /center/models/DCNv2/dist
 /data/*
+/line /weights/*.pth
+/line_detection_module/models/networks/DCNv2/_ext
+/line_detection_module/models/networks/DCNv2/build
+/line_detection_module/models/networks/DCNv2/DCNv2.egg-info
+/line_detection_module/models/networks/DCNv2/dist
