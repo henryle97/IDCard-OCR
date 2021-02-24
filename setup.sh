@@ -10,6 +10,7 @@ python testcuda.py
 cd line_detection_module/models/networks/DCNv2
 rm -rf build
 rm -rf DCNv2.egg-info
+_ext*
 sh make.sh
 python testcuda.py
 cd ../../../
