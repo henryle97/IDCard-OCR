@@ -9,4 +9,4 @@ python testcuda.py
 cd ../../../
 
 #gdown --id 1lubOiOXsh9A4D5FUCKubaR1K8GSfnnVq
-#mv model_cmnd_best.pth weights
+#mv detect_cmnd_weight.pth weights

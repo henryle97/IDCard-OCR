@@ -15,11 +15,11 @@ sh make.sh
 python testcuda.py
 cd ../../../
 
-gdown --id 1lubOiOXsh9A4D5FUCKubaR1K8GSfnnVq
+gdown --id 1DWyQhOpLlVYu4r35IijaWHbjS9A7cxTF
 mv detect_cmnd_weight.pth weights
 
 gdown --id 1ztUf3lzPCHl0ND73MMgYvsuusxYMys-x
 mv line_detect_weight.pth weights
 
-gdown --id 1ebD3bNQGiMRA9ZqYk3LXD1-MNzHFKfuq
-mv seq2seqocr.pth weights
+gdown --id 1FbVV6H9Y41v_fz0MT4X5PriTxZlNm2KL
+mv seq2seqocr_best.pth weights

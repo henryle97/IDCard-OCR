@@ -29,7 +29,7 @@ def main():
 @st.cache(allow_output_mutation=True)  # hash_func
 def load_model():
     print("Loading model ...")
-    model = TEXT_IMAGES(reg_model='vgg_seq2seq', ocr_weight_path='weights/seq2seqocr_0.45.pth')
+    model = TEXT_IMAGES(reg_model='vgg_seq2seq', ocr_weight_path='weights/seq2seqocr_best.pth')
     return model
 
 

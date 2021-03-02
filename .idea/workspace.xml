@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ac04bb18-6de7-4029-bee1-5d820c705665" name="Default Changelist" comment="100%">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/center/config/cmnd.yml" beforeDir="false" afterPath="$PROJECT_DIR$/center/config/cmnd.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmnd_ocr.py" beforeDir="false" afterPath="$PROJECT_DIR$/cmnd_ocr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/setup_win.sh" beforeDir="false" afterPath="$PROJECT_DIR$/setup_win.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +53,8 @@
       <recent name="C:\Users\hoanglv10\PycharmProjects\Face_Matching\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hoanglv10\PycharmProjects\OCR_CMND" />
       <recent name="C:\Users\hoanglv10\PycharmProjects\OCR_CMND\weights" />
+      <recent name="C:\Users\hoanglv10\PycharmProjects\OCR_CMND" />
       <recent name="C:\Users\hoanglv10\PycharmProjects\Face_Matching\weights" />
       <recent name="C:\Users\hoanglv10\PycharmProjects\Face_Matching" />
     </key>
@@ -378,7 +379,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614165520195</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="100%">
+      <created>1614188572182</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1614188572183</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
