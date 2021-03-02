@@ -3,6 +3,7 @@
 </h1>
 
 # Overview
+A project to recognize text in Vietnamese ID card using Centernet-Custom and Seq2Seq-Attention models
 
 # Setup 
 Edit requirements_gpu.txt or requirements_cpu.txt depend on CPU or GPU, then run:
